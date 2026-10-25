@@ -1,0 +1,26 @@
+POST
+https://localhost:7225/api/productos
+http://localhost:5226/api/productos
+{
+  "nombre": "Producto A",
+  "precio": 100.00,
+  "stock": 50
+}
+
+POST
+https://localhost:7225/api/ordenes
+http://localhost:5226/api/ordenes
+{
+  "detalles": [
+    {
+      "productoId": 1,
+      "cantidad": 2
+    }
+  ]
+}
+
+GET
+https://localhost:7225/api/ordenes
+http://localhost:5226/api/ordenes
+
+

@@ -1,0 +1,1 @@
+{"$id":"1","id":1,"fecha":"2025-05-06T06:06:22.306725Z","detalles":{"$id":"2","$values":[{"$id":"3","id":1,"ordenId":1,"orden":{"$ref":"1"},"productoId":1,"producto":{"$id":"4","id":1,"nombre":"Producto A","precio":100.00,"stock":48},"cantidad":2,"precioUnitario":100.00}]}}
